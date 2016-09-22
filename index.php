@@ -137,6 +137,8 @@
                     </form>
                     
                     <div id="information-container">
+                        <!-- start information-container -->
+                        
                         <?php
                             echo "<img src='$user->picture;' class='img-fluid pp-custom' /> &nbsp";
                             echo "<small>";
@@ -144,6 +146,8 @@
                             echo "</small><br /> &nbsp";
                             require_once "./file_require/proses.php"; 
                         ?>
+                        
+                        <!-- end information-container -->
                     </div>
 
                     <!-- end col -->
@@ -157,6 +161,7 @@
         
         <?php } ?>
         
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/tether.min.js"></script>
