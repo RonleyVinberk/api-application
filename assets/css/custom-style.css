@@ -1,0 +1,8 @@
+.pp-custom { min-width: 200px; }
+.pp-custom2 { max-width: 200px; }
+#container-custom { padding: 5px; }
+.pp-custom, .pp-custom2 { min-height: inherit; }
+fieldset, input[type="text"]:disabled { border: 0 !important; }
+.pp-container { max-width: 200px; min-height: 200px; background-color: aqua; }
+input[type="text"]:disabled { border: 0 !important; background: none !important; }
+.btn, .alert, select, .border-radius, input[type="text"], input[type="search"], input[type="password"] { border-radius: 0px !important; -webkit-border-radius: 0px !important; }
